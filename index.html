@@ -1,638 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Dhirendra Kumar Jena Portfolio</title>
+    <title>Dhirendra Kumar Jena | Data Engineer Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <meta name="description" content="Data Engineer at Virtusa — building scalable cloud data pipelines with dbt, AWS, Python, Airflow & GenAI.">
+    <meta name="author" content="Dhirendra Kumar Jena">
+    <meta name="keywords" content="Data Engineer, dbt, AWS, PySpark, Airflow, Snowflake, GenAI, Virtusa, Portfolio">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dhirendra Kumar Jena | Data Engineer">
+    <meta property="og:description" content="Cloud-native data pipelines, dbt models & AI-ready platforms. Open to Data Engineering opportunities.">
+    <meta property="og:image" content="images/about-me.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Dhirendra Kumar Jena | Data Engineer">
+    <meta name="twitter:description" content="Cloud-native data pipelines, dbt models & AI-ready platforms.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/ionicons.min.css">
-    
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-
-
-
-<style>
-
-/*======================================
-//--//-->   ABOUT
-======================================*/
-
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
-
-
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
-
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
-
-
-/* project image zoom effect */
-
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
-
+    <link rel="stylesheet" href="css/custom.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
+
+    <a class="skip-link" href="#about-section">Skip to content</a>
+    <div class="site-bg-mesh" aria-hidden="true"></div>
+    <div id="bg3d" class="bg3d" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Dhirendra Kumar Jena</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Dhirendra<span class="brand-accent">.</span></a>
+        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-<li class="nav-item"><a href="#certification-section" class="nav-link"><span>Certifications</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Dhirendra Kumar Jena</span></h1>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+            <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+            <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+            <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+            <li class="nav-item"><a href="#certification-section" class="nav-link"><span>Certifications</span></a></li>
+            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
+    <section id="home-section" class="hero">
+      <div class="home-slider owl-carousel">
+        <div class="slider-item">
+          <div class="overlay hero-overlay"></div>
+          <div class="container">
+            <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+              <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
+                <div class="overlay"></div>
+              </div>
+              <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <div class="text">
+                  <span class="subheading">Hello, Welcome To My Portfolio</span>
+                  <h1 class="mb-4 mt-3">I'm <span>Dhirendra Kumar Jena</span></h1>
 
-						<script>
+                  <div class="hero-role-line">
+                    <span id="typing-animation" aria-live="polite"></span>
+                  </div>
 
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
+                  <p class="availability-line">
+                    <span class="avail-dot" aria-hidden="true"></span>
+                    Open to Data Engineering opportunities
+                  </p>
 
-						// Create an array of typing text
-						const typingTexts = [
-						'Data Engineer  ',
-						'DBT Developer  '
-						];
+                  <p class="hero-tagline">
+                    Data Engineer at Virtusa — shipping cloud-native pipelines, dbt models &amp; AI-ready data platforms that scale.
+                  </p>
 
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
+                  <div class="hero-cta-group">
+                    <a href="#about-section" class="btn btn-primary py-3 px-4">ABOUT ME</a>
+                    <a href="resume/kumar_cv.pdf" class="btn btn-outline-accent py-3 px-4" download="Dhirendra_Kumar_Jena_CV.pdf">Download CV</a>
+                    <a href="https://github.com/Dkj9861" class="btn btn-outline-accent py-3 px-4" target="_blank" rel="noopener">GitHub</a>
+                  </div>
 
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script>
-
-						<br>
-						<br>
-			            <h2>Data Engineer</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
-							<a href="https://github.com/Dkj9861" class="btn btn-primary py-3 px-4">My works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-		</div>
+                  <div class="hero-tech-strip" aria-label="Core technologies">
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>dbt</span>
+                    <span>AWS</span>
+                    <span>Airflow</span>
+                    <span>PySpark</span>
+                    <span>Snowflake</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
+    <section class="impact-section" id="impact-section" aria-label="Career highlights">
+      <div class="container">
+        <div class="impact-grid reveal-up">
+          <div class="impact-item">
+            <span class="impact-num" data-count="15" data-suffix="+">0</span>
+            <span class="impact-label">Client Projects</span>
+          </div>
+          <div class="impact-item">
+            <span class="impact-num" data-count="1000" data-suffix="+">0</span>
+            <span class="impact-label">SPs Migrated to dbt</span>
+          </div>
+          <div class="impact-item">
+            <span class="impact-num" data-count="2" data-suffix="+">0</span>
+            <span class="impact-label">Years Experience</span>
+          </div>
+          <div class="impact-item">
+            <span class="impact-num" data-count="3" data-suffix="">0</span>
+            <span class="impact-label">Cloud Certifications</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Dhirendra Kumar Jena</span></p>
-										<p><span class="title-s">Company: </span> <span>Virtusa</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Data Engineer</span></p>
-										<p><span class="title-s">Experience: </span> <span>2 Years 4 Months</span></p>
-										<p><span class="title-s">Address: </span> <span>Hyderabad, India</span></p>
-									  </div>
-									</div>
-								  </div>
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-lg-5 mb-4 mb-lg-0 reveal-up">
+            <div class="about-side">
+              <div class="about-img">
+                <img src="images/about-me.png" class="img-fluid" alt="Portrait of Dhirendra Kumar Jena, Data Engineer" width="160" height="160" loading="lazy" decoding="async">
+              </div>
+              <div class="about-info text-center text-md-left">
+                <p><span class="title-s">Name:</span> <span>Dhirendra Kumar Jena</span></p>
+                <p><span class="title-s">Company:</span> <span>Virtusa</span></p>
+                <p><span class="title-s">Role:</span> <span>Data Engineer</span></p>
+                <p><span class="title-s">Experience:</span> <span>2 Years 4 Months</span></p>
+                <p><span class="title-s">Location:</span> <span>Hyderabad, India</span></p>
+              </div>
 
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>PYTHON</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>AWS</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>PySpark</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Machine Learning</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>
-I am a Data Engineer with over 2 years of professional experience in building scalable data solutions and analytics platforms. I have hands-on experience working with DBT, Python, SQL, and various AWS services to design and implement efficient data pipelines. I also have exposure to Apache Airflow for workflow orchestration and PySpark for large-scale data processing. In addition, I have worked with Generative AI and Agentic AI concepts in data-driven automation use cases.
-</p>
+              <div class="skill-mf">
+                <p class="title-s">Skills</p>
+                <span>SQL</span> <span class="pull-right">95%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-<p>
-I have contributed to cloud migration projects, helping organizations modernize and move their data infrastructure to the cloud. My expertise includes designing and optimizing ETL/ELT pipelines, data transformation, and building reliable data workflows.
-</p>
+                <span>PYTHON</span> <span class="pull-right">85%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-<p>
-I also have experience in machine learning and data analysis, enabling me to support end-to-end intelligent and scalable data systems. I am passionate about building efficient, cloud-native, and AI-enabled data solutions that deliver business value.
-</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Engineer</span></li>
+                <span>AWS</span> <span class="pull-right">90%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-							<li class="d-flex"><span>Domain:</span> <span>Cloud Data Engineering, Analytics & AI</span></li>
+                <span>PySpark</span> <span class="pull-right">85%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
 
-							<li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
+                <span>Machine Learning</span> <span class="pull-right">80%</span>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-							<li class="d-flex"><span>Language:</span> <span>English, Hindi,Odia</span></li>
+          <div class="col-lg-7 pl-lg-5 reveal-up reveal-delay-1">
+            <div class="heading-section ftco-animate">
+              <h1 class="big">About</h1>
+              <h2 class="mb-4">About Me</h2>
 
-							<li class="d-flex"><span>Tech Stack:</span> <span>SQL, Python, DBT, PySpark, Apache Airflow, AWS Services,Azure ADF,SnowFlake,DataBricks,GCP</span></li>
+              <div class="about-copy">
+                <p>
+                  I am a Data Engineer with over 2 years of professional experience in building scalable data solutions and analytics platforms. I have hands-on experience working with dbt, Python, SQL, and various AWS services to design and implement efficient data pipelines. I also have exposure to Apache Airflow for workflow orchestration and PySpark for large-scale data processing. In addition, I have worked with Generative AI and Agentic AI concepts in data-driven automation use cases.
+                </p>
+                <p>
+                  I have contributed to cloud migration projects, helping organizations modernize and move their data infrastructure to the cloud. My expertise includes designing and optimizing ETL/ELT pipelines, data transformation, and building reliable data workflows.
+                </p>
+                <p>
+                  I also have experience in machine learning and data analysis, enabling me to support end-to-end intelligent and scalable data systems. I am passionate about building efficient, cloud-native, and AI-enabled data solutions that deliver business value.
+                </p>
+              </div>
 
-							<li class="d-flex"><span>BI Tools:</span> <span>Power BI</span></li>
+              <ul class="about-info mt-4 px-md-0 px-2">
+                <li class="d-flex"><span>Profile:</span> <span>Data Engineer</span></li>
+                <li class="d-flex"><span>Domain:</span> <span>Cloud Data Engineering, Analytics &amp; AI</span></li>
+                <li class="d-flex"><span>Education:</span> <span>Bachelor of Technology</span></li>
+                <li class="d-flex"><span>Language:</span> <span>English, Hindi, Odia</span></li>
+                <li class="d-flex"><span>Tech Stack:</span> <span>SQL, Python, dbt, PySpark, Apache Airflow, AWS, Azure ADF, Snowflake, Databricks, GCP</span></li>
+                <li class="d-flex"><span>BI Tools:</span> <span>Power BI</span></li>
+                <li class="d-flex"><span>Other Skills:</span> <span>Git, MySQL, Data Modeling, ETL/ELT, Cloud Migration, GenAI Application Development</span></li>
+                <li class="d-flex"><span>AI Skills:</span> <span>Generative AI, Agentic AI (Concepts &amp; Use Cases)</span></li>
+                <li class="d-flex"><span>Company:</span> <span>Virtusa</span></li>
+                <li class="d-flex"><span>Interest:</span> <span>Data Engineering, Scalable Systems, AI in Data, Cloud Technologies, Advanced Mathematics, Quantum Physics</span></li>
+              </ul>
+            </div>
 
-							<li class="d-flex"><span>Other Skills:</span> <span>Git,Mysql server, Data Modeling, ETL/ELT Pipelines, Cloud Migration, GenAI Application Developement</span></li>
-
-							<li class="d-flex"><span>AI Skills:</span> <span>Generative AI, Agentic AI (Concepts & Use Cases)</span></li>
-
-							<li class="d-flex"><span>Company:</span> <span>Virtusa</span></li>
-
-							<li class="d-flex"><span>Interest:</span> <span>Data Engineering, Scalable Systems, AI in Data, Cloud Technologies,Advanced Mathematics,Quantum Physics</span></li>
-																
-								</ul>
-							</div>
-						</div>
-
-
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span>&nbsp; Worked On </span>
-									<span class="number" data-number="15">0</span> <span>+</span>
-									<span>&nbsp; Client Projects</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/dhirendra-kumar-jena-7a2386193" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+            <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+                <p class="mb-4">
+                  <span>Worked On </span>
+                  <span class="number" data-number="15">0</span><span>+</span>
+                  <span> Client Projects</span>
+                </p>
+                <p>
+                  <a href="https://www.linkedin.com/in/dhirendra-kumar-jena-7a2386193" class="btn btn-primary py-3 px-3" target="_blank" rel="noopener">LinkedIn</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-
-	
     <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate reveal-up">
+            <h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-			<p>
-			Data Engineer with 2+ years of experience building scalable data pipelines and working across cloud platforms including AWS, GCP, and Azure. Also experienced in Generative AI applications, including working with LLM APIs, data integration, and AI-driven workflows.
-			</p>          </div>
+            <p>
+              Data Engineer with 2+ years of experience building scalable data pipelines across AWS, GCP, and Azure. Experienced in Generative AI applications, LLM APIs, data integration, and AI-driven workflows.
+            </p>
+          </div>
         </div>
 
-		<div class="row">
-			<h1 class="big-4">Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-		<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2024(Jan)-2025(March)</span>
-						<h2>Associate Data Engineer</h2>
-						<span class="position">Virtusa(Client:Airliquide)</span>
-						<p class="mt-4">Air Liquide is a global industrial gases company leveraging cloud, data, and AI technologies to power healthcare, manufacturing, and energy sectors through large-scale digital transformation.
+        <div class="row">
+          <div class="col-12">
+            <h1 class="big-4">Experience</h1>
+            <div class="underline"></div>
+          </div>
+        </div>
+        <br>
 
-							<ul>
-								<ul>
-								<li>Executed end-to-end data migration from AWS to Azure, successfully migrating 15+ products with seamless transition of data pipelines and infrastructure.</li>
+        <div class="row">
+          <div class="col-md-6 reveal-up">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">Jan 2024 – Mar 2025</span>
+              <h2>Associate Data Engineer</h2>
+              <span class="position">Virtusa (Client: Air Liquide)</span>
+              <p class="mt-4 mb-0">Air Liquide is a global industrial gases company leveraging cloud, data, and AI to power healthcare, manufacturing, and energy through large-scale digital transformation.</p>
+              <ul>
+                <li>Executed end-to-end data migration from AWS to Azure, successfully migrating 15+ products with seamless transition of data pipelines and infrastructure.</li>
+                <li>Converted 1000+ complex stored procedures into optimized and scalable dbt models to improve performance and maintainability.</li>
+                <li>Automated data workflows from ingestion to reporting using Apache Airflow and Python.</li>
+                <li>Performed thorough end-to-end data validation to ensure accuracy, consistency, and reliability.</li>
+                <li>Analyzed complex DAX queries and transformed them into efficient dbt models for analytics.</li>
+              </ul>
+            </div>
+          </div>
 
-								<li>Converted 1000+ complex stored procedures into optimized and scalable dbt models to improve performance and maintainability.</li>
+          <div class="col-md-6 reveal-up reveal-delay-1">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2025 – Present</span>
+              <h2>Data Engineer</h2>
+              <span class="position">Virtusa (Client: Air Liquide)</span>
+              <ul>
+                <li>Designed and implemented end-to-end data pipelines from scratch and deployed them on AWS for scalable processing and analytics.</li>
+                <li>Ingested data from Oracle DB, PostgreSQL, and external APIs (Gideon API) using an internal tool (Nucleus).</li>
+                <li>Built dbt transformation models on raw data layers based on business logic for analytics-ready datasets.</li>
+                <li>Developed and automated workflows using Apache Airflow and Python, orchestrating pipelines from ingestion to reporting.</li>
+                <li>Created Power BI dashboards and performed end-to-end validation. Stack: AWS Athena, dbt, SQL, Python, Airflow, PySpark.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-								<li>Automated data workflows from ingestion to reporting using Apache Airflow and Python, enabling efficient pipeline orchestration.</li>
+        <br><br>
 
-								<li>Performed thorough end-to-end data validation to ensure data accuracy, consistency, and reliability across systems.</li>
+        <div class="row">
+          <div class="col-12">
+            <h1 class="big-4">Education</h1>
+            <div class="underline"></div>
+          </div>
+        </div>
+        <br>
 
-								<li>Analyzed complex DAX queries and transformed them into efficient dbt models, enhancing analytics and reporting capabilities.</li>
-</ul>
-							</ul>
-						</p>
-					</div>
+        <div class="row">
+          <div class="col-md-6 reveal-up">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2019 – 2023</span>
+              <h2>Bachelor of Technology</h2>
+              <span class="position">Lovely Professional University</span>
+              <p class="mt-4 mb-0">CGPA: 8.1</p>
+            </div>
+          </div>
+          <div class="col-md-6 reveal-up reveal-delay-1">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2016 – 2018</span>
+              <h2>Higher Secondary School</h2>
+              <span class="position">Shanti Institute Of Management Studies</span>
+              <p class="mt-4 mb-0">Percentage: 82%</p>
+            </div>
+          </div>
+        </div>
 
-				</div>
-
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2025-Present</span>
-						<h2>Data Engineer</h2>
-						<span class="position">Virtusa(Client:Airliquide)</span>
-							<ul>
-								<ul>
-								<li>Designed and implemented end-to-end data pipelines from scratch and deployed them on AWS for scalable data processing and analytics.</li>
-
-								<li>Ingested data from multiple sources including Oracle DB, PostgreSQL, and external APIs (Gideon API) using an internal tool (Nucleus).</li>
-
-								<li>Built dbt transformation models on raw data layers based on business logic to ensure clean, structured, and analytics-ready datasets.</li>
-
-								<li>Developed and automated data workflows using Apache Airflow and Python, orchestrating pipelines from ingestion to reporting.</li>
-
-								<li>Supported business intelligence by creating Power BI dashboards and performing end-to-end data validation to ensure data quality and accuracy. Used AWS Athena, dbt, SQL, Python, Airflow, and PySpark extensively.</li>
-								</ul>
-							</ul>
-						</p>
-					</div>
-
-				</div>
-			</div>
-
-		<br>
-		<br>
-
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2019-2023</span>
-    					<h2>Bachelor of Technology</h2>
-    					<span class="position">Lovely Professional University</span>
-    					<p class="mt-4">CGPA:8.1</p>
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2016-2018</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">Shanti Institute Of Management Studies</span>
-    					<p class="mt-4">Percentage:82%.</p>
-    				</div>
-				</div>
-    		</div>
-
-			<div class="row justify-content-center mt-5">
-		<div class="col-md-6 text-center ftco-animate">
-			<p>
-			<a href="portfolio_template/resume/kumar_cv.pdf"
-				class="btn btn-primary py-4 px-5"
-				download="Kumar_CV.pdf">
-				Download CV
-			</a>
-			</p>
-		</div>
-</div>
-</div>
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6 text-center ftco-animate">
+            <p>
+              <a href="resume/kumar_cv.pdf" class="btn btn-primary py-4 px-5" download="Dhirendra_Kumar_Jena_CV.pdf">
+                Download CV
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
-
-   
 
     <section class="ftco-section" id="project-section">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 heading-section text-center ftco-animate">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-8 heading-section text-center ftco-animate reveal-up">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>This section highlights my hands-on experience in Generative AI projects and large-scale AWS to Azure data migration, along with end-to-end data engineering and cloud pipeline implementations.</p>          </div>
+            <p>Hands-on work in Generative AI, large-scale AWS to Azure migration, and end-to-end cloud data pipelines.</p>
+          </div>
         </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Dkj9861/MCQ-GENERATOR-AND-EVALUATOR.git" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/Dkj9861/MCQ-GENERATOR-AND-EVALUATOR.git">MCQ-GENERATOR-AND-EVALUATOR</a></h3>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate mb-4 reveal-up">
+            <div class="blog-entry justify-content-end">
+              <a href="https://github.com/Dkj9861/MCQ-GENERATOR-AND-EVALUATOR.git" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');" target="_blank" rel="noopener" aria-label="MCQ Generator project"></a>
+              <div class="text mt-3 d-block">
+                <span class="project-tag">Generative AI</span>
+                <h3 class="heading"><a href="https://github.com/Dkj9861/MCQ-GENERATOR-AND-EVALUATOR.git" target="_blank" rel="noopener">MCQ Generator &amp; Evaluator</a></h3>
                 <p>An AI-powered Streamlit app using LangChain and LLMs to instantly transform text into customizable MCQ and MSQ assessments.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Dkj9861/jaffle-shop.git" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/Dkj9861/jaffle-shop.git">Snowflake & dbt Production Analytics Pipeline</a></h3>
+          <div class="col-md-4 d-flex ftco-animate mb-4 reveal-up reveal-delay-1">
+            <div class="blog-entry justify-content-end">
+              <a href="https://github.com/Dkj9861/jaffle-shop.git" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');" target="_blank" rel="noopener" aria-label="Snowflake dbt project"></a>
+              <div class="text mt-3 d-block">
+                <span class="project-tag">Analytics Engineering</span>
+                <h3 class="heading"><a href="https://github.com/Dkj9861/jaffle-shop.git" target="_blank" rel="noopener">Snowflake &amp; dbt Production Pipeline</a></h3>
                 <p>A scalable ELT pipeline using Snowflake and dbt to transform raw transactional data into structured, production-ready analytical data marts.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="https://github.com/Dkj9861/jaffle-shop.git" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/Dkj9861/jaffle-shop.git">Serverless Lakehouse Orchestrator</a></h3>
-                <p>An AWS serverless Data Lakehouse using dbt-athena and Apache Iceberg to orchestrate high-performance SQL transformations, automated schema discovery via Glue, and cost-optimized storage directly within an S3-based data lake..</p>
+          <div class="col-md-4 d-flex ftco-animate mb-4 reveal-up reveal-delay-2">
+            <div class="blog-entry">
+              <a href="https://github.com/Dkj9861/jaffle-shop.git" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');" target="_blank" rel="noopener" aria-label="Lakehouse project"></a>
+              <div class="text mt-3 d-block">
+                <span class="project-tag">AWS Lakehouse</span>
+                <h3 class="heading"><a href="https://github.com/Dkj9861/jaffle-shop.git" target="_blank" rel="noopener">Serverless Lakehouse Orchestrator</a></h3>
+                <p>An AWS serverless Data Lakehouse using dbt-athena and Apache Iceberg for high-performance SQL transforms, Glue schema discovery, and cost-optimized S3 storage.</p>
               </div>
             </div>
           </div>
         </div>
-	<br>
-		
-    <section class="ftco-section" id="certification-section">
-  <div class="container">
-    <div class="row justify-content-center mb-5 pb-5">
-      <div class="col-md-7 heading-section text-center ftco-animate">
-        <h1 class="big big-2">Certificates</h1>
-        <h2 class="mb-4">Certifications</h2>
-        <p>A collection of professional certifications validating my expertise in Cloud Computing, Data Engineering, and Generative AI.</p>
       </div>
-    </div>
-    <div class="row d-flex">
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <div class="block-20 zoom-effect" style="background-image: url('images/cert_1.jpg');"></div>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading">AWS Certified Developer Associate – Associate</h3>
-            <p>Validates technical skills in data collection, storage, transformation, and security within the AWS ecosystem.</p>
+    </section>
+
+    <section class="ftco-section" id="certification-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-8 heading-section text-center ftco-animate reveal-up">
+            <h1 class="big big-2">Certificates</h1>
+            <h2 class="mb-4">Certifications</h2>
+            <p>Professional certifications validating expertise in Cloud Computing, Data Engineering, and Generative AI.</p>
+          </div>
+        </div>
+
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate mb-4 reveal-up">
+            <div class="blog-entry justify-content-end">
+              <div class="block-20 zoom-effect" style="background-image: url('images/cert_1.jpg');" role="img" aria-label="AWS certification"></div>
+              <div class="text mt-3 d-block">
+                <span class="project-tag">AWS</span>
+                <h3 class="heading">AWS Certified Developer – Associate</h3>
+                <p>Validates technical skills in building, deploying, and securing applications on AWS.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex ftco-animate mb-4 reveal-up reveal-delay-1">
+            <div class="blog-entry justify-content-end">
+              <div class="block-20 zoom-effect" style="background-image: url('images/cert_2.jpg');" role="img" aria-label="GCP certification"></div>
+              <div class="text mt-3 d-block">
+                <span class="project-tag">Google Cloud</span>
+                <h3 class="heading">GCP Associate Cloud Engineer</h3>
+                <p>Certified in deploying applications, monitoring operations, and managing enterprise solutions on Google Cloud Platform.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex ftco-animate mb-4 reveal-up reveal-delay-2">
+            <div class="blog-entry justify-content-end">
+              <div class="block-20 zoom-effect cert-placeholder" role="img" aria-label="Oracle GenAI certification">
+                <span>Oracle GenAI</span>
+              </div>
+              <div class="text mt-3 d-block">
+                <span class="project-tag">Oracle</span>
+                <h3 class="heading">Oracle Certified GenAI Professional</h3>
+                <p>Expertise in OCI Generative AI — LLMs, fine-tuning, RAG architecture, and building AI agents for enterprise automation.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <div class="block-20 zoom-effect" style="background-image: url('images/cert_2.jpg');"></div>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading">GCP Cloud Certified Associate Cloud Engineer</h3>
-           <p>Certified in deploying applications, monitoring operations, and managing enterprise solutions on Google Cloud Platform</p>        </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 d-flex ftco-animate">
-        <div class="blog-entry justify-content-end">
-          <div class="block-20 zoom-effect" style="background-image: url('images/cert_3.jpg');"></div>
-          <div class="text mt-3 float-right d-block">
-            <h3 class="heading">Oracle Certified GenAI Professional</h3>
-			<p>Validated expertise in OCI Generative AI services, covering Large Language Models (LLMs), fine-tuning, RAG architecture, and building AI agents for enterprise automation.</p>          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
       <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate reveal-up">
             <h1 class="big big-2">Contact</h1>
             <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
+            <p>Open to Data Engineering roles, freelance projects, and collaboration opportunities.</p>
           </div>
         </div>
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Bhubaneswar,Odisha,India</p>
-	          </div>
+        <div class="row d-flex contact-info mb-4">
+          <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate reveal-up">
+            <div class="align-self-stretch box p-4 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-map-signs"></span>
+              </div>
+              <h3 class="mb-4">Address</h3>
+              <p>Bhubaneswar, Odisha, India</p>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+ 91 6284962074</a></p>
-	          </div>
+          <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate reveal-up reveal-delay-1">
+            <div class="align-self-stretch box p-4 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-phone2"></span>
+              </div>
+              <h3 class="mb-4">Phone</h3>
+              <p><a href="tel:+916284962074">+91 6284962074</a></p>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-envelope"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">jena.dhirendra2000@gmail.com</a></p>
-	          </div>
+          <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate reveal-up reveal-delay-2">
+            <div class="align-self-stretch box p-4 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-envelope"></span>
+              </div>
+              <h3 class="mb-4">Email</h3>
+              <p><a href="mailto:jena.dhirendra2000@gmail.com">jena.dhirendra2000@gmail.com</a></p>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-github"></span>
-          		</div>
-          		<h3 class="mb-4">Github</h3>
-	            <p><a href="https://github.com/Dkj9861">Click Here</a></p>
-	          </div>
+          <div class="col-6 col-md-6 col-lg-3 d-flex ftco-animate reveal-up reveal-delay-3">
+            <div class="align-self-stretch box p-4 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-github"></span>
+              </div>
+              <h3 class="mb-4">GitHub</h3>
+              <p><a href="https://github.com/Dkj9861" target="_blank" rel="noopener">github.com/Dkj9861</a></p>
+            </div>
           </div>
+        </div>
 
-		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6I_cO7sWIe3PLQB6OX2eaMHf5q8rU60YYrlKsQ7lhaSA8mg/viewform?usp=publish-editor" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
-				</div>
-			</div>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/dhirendra-kumar-jena-7a2386193"><span class="icon-linkedin"></span></a></li>  
-					  <li class="ftco-animate"><a href="https://twitter.com/Dkj9861"><span class="icon-twitter"></span></a></li>
-				      <li class="ftco-animate"><a href="https://www.instagram.com/dhirendrakumarjena4?igsh"><span class="icon-instagram"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
+        <div class="contact-cta-block reveal-up">
+          <h2>Have a <span>Question?</span></h2>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6I_cO7sWIe3PLQB6OX2eaMHf5q8rU60YYrlKsQ7lhaSA8mg/viewform?usp=publish-editor" class="btn btn-primary py-3 px-5" target="_blank" rel="noopener">Get In Touch</a>
+          <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0 mt-4">
+            <li class="ftco-animate normal-txt">Find me on</li>
+            <li class="ftco-animate"><a href="https://www.linkedin.com/in/dhirendra-kumar-jena-7a2386193" target="_blank" rel="noopener" aria-label="LinkedIn"><span class="icon-linkedin"></span></a></li>
+            <li class="ftco-animate"><a href="https://twitter.com/Dkj9861" target="_blank" rel="noopener" aria-label="Twitter"><span class="icon-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/dhirendrakumarjena4?igsh" target="_blank" rel="noopener" aria-label="Instagram"><span class="icon-instagram"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-
- 
-	
     <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-<div class="ftco-animate" data-animate-effect="fadeInUp">
-    <p style="font-size: 18px;">
-        Thank You For Visiting 
-        <i class="icon-heart heartbeat color-danger" aria-hidden="true"></i> 
-        My Portfolio. 
-        <a href="#" class="footer-link">Have a Good Day!</a>
-    </p>
-</div>	
-			</div>
-		  </div>
-		</div>
-	  </footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="ftco-animate" data-animate-effect="fadeInUp">
+              <p style="font-size: 17px; margin-bottom: 0.5rem;">
+                Thank You For Visiting
+                <i class="icon-heart heartbeat color-danger" aria-hidden="true"></i>
+                My Portfolio.
+                <a href="#home-section" class="footer-link">Have a Great Day!</a>
+              </p>
+              <p class="footer-copy">&copy; <span id="year"></span> Dhirendra Kumar Jena. Built for recruiters &amp; collaborators.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
+    <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">
+      <span aria-hidden="true">↑</span>
+    </button>
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/bg3d.js"></script>
   </body>
 </html>
